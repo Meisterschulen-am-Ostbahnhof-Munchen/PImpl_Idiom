@@ -29,4 +29,4 @@ User::User()
     pimpl->welcomeMessage();
 }
 
-
+User::~User() = default;

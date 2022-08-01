@@ -19,7 +19,7 @@ public:
     // Constructor and Destructors
 
     User();
-    ~User() = default;
+    ~User();
 
 
 
