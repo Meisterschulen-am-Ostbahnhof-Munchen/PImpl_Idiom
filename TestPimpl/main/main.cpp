@@ -7,6 +7,7 @@
    CONDITIONS OF ANY KIND, either express or implied.
 */
 #include <iostream>
+#include "User.h"
 
 using std::cout;
 using std::endl;
@@ -16,6 +17,16 @@ using std::runtime_error;
 extern "C" void app_main(void)
 {
     cout << "app_main starting" << endl;
+
+
+    cout << "make a new User" << endl;
+    User* pu = new User();
+
+
+
+    cout << "delete it" << endl;
+    delete(pu);
+
 
 
 
