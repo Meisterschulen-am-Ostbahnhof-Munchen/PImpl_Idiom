@@ -29,9 +29,4 @@ User::User()
     pimpl->welcomeMessage();
 }
 
-// Default Constructor
-// it MUST be in the CPP File; otherwise you get an Error at Compile time.
-User::~User() = default;
-
-
 
